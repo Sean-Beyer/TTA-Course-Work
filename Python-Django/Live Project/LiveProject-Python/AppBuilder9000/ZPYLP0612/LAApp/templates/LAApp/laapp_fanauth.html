@@ -1,0 +1,49 @@
+{% extends 'LAApp/LAApp_base.html' %}
+{% load staticfiles %}
+{% block templatecontent %}
+
+<div class="laapp_authorsblurb">
+    <p>Science Fiction Authors Listed on Wikipedia</p>
+    <p><i>Check and see if your local author is listed or explore the linked articles.</i></p>
+</div>
+<div class="laappselect_flex-box" hidden><!-- for future formatting with JavaScript-->
+        <div class="">
+            <select id="laapp_chooseletter" name="" class="laapp_chooseletter">
+                <option value="">Please select First Letter of Last Name</option>
+                    {% for letter in alphabetchoices %}
+                <option value="{{ letter }}" class="laapp_options" >{{ letter }}</option>
+                    {% endfor %}
+            </select>
+        </div>
+</div>
+<div class="flex-container w_author">
+    {% for letter in alphabetchoices %}
+        <div class="laapp_alphaheader">
+        {{ letter }}
+        </div>
+
+        <table id="laapp_authorinfo">
+            <tr>
+                <th></th>
+                <th>Author's Name</th>
+                <th>Recorded Dates</th>
+                <th>Other Information</th>
+                <th>Links to Wikipedia Articles</th>
+            </tr>
+            {% for w_author in w_authors %}
+            {% if letter == w_author.letter %}
+             <tr>
+                <td></td>
+                 <td>{{ w_author.authors_name }}</td>
+                <td>({{w_author.years}})</td>
+                <td>{{w_author.other}}</td>
+                <td><a href="{{w_author.url}}"><img src="../../static/LAApp/images/blue_arrow.png" class="laapp_r_arrow"></a></td>
+             </tr>
+            {% endif %}
+            {% endfor %}
+        </table>
+
+
+    {% endfor %}
+</div>
+{% endblock %}

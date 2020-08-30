@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:Version5" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="377b88e1-5d46-4c5e-991e-4e0665c5cda9" name="Default Changelist" comment="Form not rendering. Added styling to edit page but text issue" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" show_ignored="true" />
+  <component name="Git.Settings">
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$/LiveProject-Python" source="SB-615-signingin" />
+                <branch-info repo="$PROJECT_DIR$/LiveProject-Python" source="SB-6744-API1" />
+              </list>
+            </value>
+          </entry>
+          <entry type="REMOTE">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$/LiveProject-Python" source="origin/SB-615-signingin" />
+                <branch-info repo="$PROJECT_DIR$/LiveProject-Python" source="origin/SB-615-NewApp" />
+                <branch-info repo="$PROJECT_DIR$/LiveProject-Python" source="origin/SB-6694-Index" />
+                <branch-info repo="$PROJECT_DIR$/LiveProject-Python" source="origin/SB-6697-Details" />
+                <branch-info repo="$PROJECT_DIR$/LiveProject-Python" source="origin/SB-6703-Edit/Delete" />
+                <branch-info repo="$PROJECT_DIR$/LiveProject-Python" source="origin/SB-6746-BS" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/LiveProject-Python" value="SB-6746-BS" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/LiveProject-Python" />
+  </component>
+  <component name="ProjectId" id="1dNPHfn9Ia20ryHD0E3DQSp4XgC" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Seann\Matrix\LPFolder\LiveProject-Python\AppBuilder9000\SFToons\static\SFToons\images" />
+      <recent name="C:\Users\Seann\Matrix\LPFolder\LiveProject-Python\AppBuilder9000\SFToons\templates\SFToons" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="manage" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="LPFolder" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LiveProject-Python/AppBuilder9000" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LiveProject-Python/AppBuilder9000/manage.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.manage" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="377b88e1-5d46-4c5e-991e-4e0665c5cda9" name="Default Changelist" comment="" />
+      <created>1592262490816</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1592262490816</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Added entry to signin.html">
+      <created>1592266873754</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1592266873754</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Major commit for story 1 with Home site update">
+      <created>1592346813068</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1592346813068</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Added form and confirmed function of saving items.">
+      <created>1592507740321</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1592507740321</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Renamed branch.">
+      <created>1592511467947</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1592511467947</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Renamed branch.">
+      <created>1592511704657</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1592511704657</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Adding index page">
+      <created>1592517015313</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1592517015313</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Commented out details">
+      <created>1592517225103</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1592517225103</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Rebuild with functioning character forms and models">
+      <created>1592519831884</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1592519831884</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Basic index layout and saving">
+      <created>1592554191121</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1592554191121</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Functioning index page. Also, fixed creation button.">
+      <created>1592599010491</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1592599010491</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Details start.">
+      <created>1592600150265</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1592600150265</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Readded index page due to update error.">
+      <created>1592600468620</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1592600468620</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Getting views details">
+      <created>1592600660123</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1592600660123</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Update Society check">
+      <created>1592601238979</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1592601238979</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Final push for Story 4 stable.">
+      <created>1592614212282</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1592614212282</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Working edit/delete page">
+      <created>1592890418200</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1592890418200</updated>
+    </task>
+    <task id="LOCAL-00017" summary="BeautifulSoup displaying beautifully">
+      <created>1593037606334</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1593037606334</updated>
+    </task>
+    <task id="LOCAL-00018" summary="BeautifulSoup displaying beautifully and updated">
+      <created>1593039227074</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1593039227074</updated>
+    </task>
+    <task id="LOCAL-00019" summary="API - not rendering html">
+      <created>1593202122321</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1593202122321</updated>
+    </task>
+    <task id="LOCAL-00020" summary="API - not rendering html">
+      <created>1593202141446</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1593202141446</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Form not rendering">
+      <created>1593210685939</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1593210685939</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Form not rendering. Added styling to edit page but text issue">
+      <created>1593416824706</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1593416824706</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="SHOW_OTHER_BRANCHES" value="true" />
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added entry to signin.html" />
+    <MESSAGE value="Major commit for story 1 with Home site update" />
+    <MESSAGE value="Added form and confirmed function of saving items." />
+    <MESSAGE value="Renamed Branch" />
+    <MESSAGE value="Renamed branch." />
+    <MESSAGE value="Adding index page" />
+    <MESSAGE value="Commented out details" />
+    <MESSAGE value="Rebuild with functioning character forms and models" />
+    <MESSAGE value="Basic index layout and saving" />
+    <MESSAGE value="Functioning index page. Also, fixed creation button." />
+    <MESSAGE value="Details start." />
+    <MESSAGE value="Readded index page due to update error." />
+    <MESSAGE value="Getting views details" />
+    <MESSAGE value="Update Society check" />
+    <MESSAGE value="Final push for Story 4 stable." />
+    <MESSAGE value="Working edit/delete page" />
+    <MESSAGE value="BeautifulSoup displaying beautifully" />
+    <MESSAGE value="BeautifulSoup displaying beautifully and updated" />
+    <MESSAGE value="API - not rendering html" />
+    <MESSAGE value="Form not rendering" />
+    <MESSAGE value="Form not rendering. Added styling to edit page but text issue" />
+    <option name="LAST_COMMIT_MESSAGE" value="Form not rendering. Added styling to edit page but text issue" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="315" y="128" key="#Inspections" timestamp="1593123138468">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="315" y="128" key="#Inspections/-1452.-765.1038.614/-1440.3.1152.720/-2880.3.1152.720/0.0.1440.900@0.0.1440.900" timestamp="1593123138468" />
+    <state x="37" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597221576517">
+      <screen x="0" y="0" width="1362" height="900" />
+    </state>
+    <state x="37" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1440.3.1090.720/-2880.3.1152.720/0.0.1362.900/-1452.-765.1088.614@0.0.1362.900" timestamp="1597221576517" />
+    <state x="-1409" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1452.-765.1298.768/-1440.3.1152.720/-2880.3.1152.720/0.0.1378.900@-1440.3.1152.720" timestamp="1592514812669" />
+    <state x="-1347" y="96" width="966" height="534" key="DiffContextDialog" timestamp="1592511418436">
+      <screen x="-1440" y="3" width="1152" height="720" />
+    </state>
+    <state x="-1347" y="96" width="966" height="534" key="DiffContextDialog/-1452.-765.1298.768/-1440.3.1152.720/-2880.3.1152.720/0.0.1378.900@-1440.3.1152.720" timestamp="1592511418436" />
+    <state width="313" height="740" key="Git.Branch.Popup" timestamp="1593206417392">
+      <screen x="0" y="0" width="1378" height="900" />
+    </state>
+    <state width="285" height="712" key="Git.Branch.Popup/-1452.-765.1038.614/-1440.3.1152.720/-2880.3.1152.720/0.0.1378.900@0.0.1378.900" timestamp="1592601242246" />
+    <state width="324" height="738" key="Git.Branch.Popup/-1452.-765.1088.614/-1440.3.1152.720/-2880.3.1152.720/0.0.1440.900@0.0.1440.900" timestamp="1593039615653" />
+    <state width="211" height="544" key="Git.Branch.Popup/-1452.-765.1298.768/-1440.3.1152.720/-2880.3.1152.720/0.0.1378.900@-1440.3.1152.720" timestamp="1592518338321" />
+    <state width="313" height="740" key="Git.Branch.Popup/0.0.1378.900/-1440.3.1152.720/-2880.3.1152.720/-1452.-765.1088.614@0.0.1378.900" timestamp="1593206417392" />
+    <state width="191" height="595" key="Git.Branch.Popup/0.0.1474.864/1920.0.819.614@0.0.1474.864" timestamp="1592347019024" />
+    <state width="183" height="587" key="Git.Branch.Popup/0.0.1474.864@0.0.1474.864" timestamp="1592268432818" />
+    <state width="1153" height="183" key="GridCell.Tab.0.bottom" timestamp="1597221646352">
+      <screen x="-1440" y="3" width="1090" height="720" />
+    </state>
+    <state width="1153" height="183" key="GridCell.Tab.0.bottom/-1440.3.1090.720/-2880.3.1152.720/0.0.1362.900/-1452.-765.1088.614@-1440.3.1090.720" timestamp="1597221646352" />
+    <state width="1153" height="183" key="GridCell.Tab.0.center" timestamp="1597221646352">
+      <screen x="-1440" y="3" width="1090" height="720" />
+    </state>
+    <state width="1153" height="183" key="GridCell.Tab.0.center/-1440.3.1090.720/-2880.3.1152.720/0.0.1362.900/-1452.-765.1088.614@-1440.3.1090.720" timestamp="1597221646352" />
+    <state width="1153" height="183" key="GridCell.Tab.0.left" timestamp="1597221646352">
+      <screen x="-1440" y="3" width="1090" height="720" />
+    </state>
+    <state width="1153" height="183" key="GridCell.Tab.0.left/-1440.3.1090.720/-2880.3.1152.720/0.0.1362.900/-1452.-765.1088.614@-1440.3.1090.720" timestamp="1597221646352" />
+    <state width="1153" height="183" key="GridCell.Tab.0.right" timestamp="1597221646352">
+      <screen x="-1440" y="3" width="1090" height="720" />
+    </state>
+    <state width="1153" height="183" key="GridCell.Tab.0.right/-1440.3.1090.720/-2880.3.1152.720/0.0.1362.900/-1452.-765.1088.614@-1440.3.1090.720" timestamp="1597221646352" />
+    <state x="327" y="211" key="MultipleFileMergeDialog" timestamp="1592600262138">
+      <screen x="0" y="0" width="1378" height="900" />
+    </state>
+    <state x="327" y="211" key="MultipleFileMergeDialog/-1452.-765.1038.614/-1440.3.1152.720/-2880.3.1152.720/0.0.1378.900@0.0.1378.900" timestamp="1592600262138" />
+    <state x="-1148" y="83" key="RollbackChangesDialog" timestamp="1592518076727">
+      <screen x="-1440" y="3" width="1152" height="720" />
+    </state>
+    <state x="-1148" y="83" key="RollbackChangesDialog/-1452.-765.1298.768/-1440.3.1152.720/-2880.3.1152.720/0.0.1378.900@-1440.3.1152.720" timestamp="1592518076727" />
+    <state x="310" y="144" key="Vcs.Push.Dialog.v2" timestamp="1593416844471">
+      <screen x="0" y="0" width="1378" height="900" />
+    </state>
+    <state x="310" y="144" key="Vcs.Push.Dialog.v2/-1452.-765.1038.614/-1440.3.1152.720/-2880.3.1152.720/0.0.1378.900@0.0.1378.900" timestamp="1592614949853" />
+    <state x="324" y="144" key="Vcs.Push.Dialog.v2/-1452.-765.1088.614/-1440.3.1152.720/-2880.3.1152.720/0.0.1440.900@0.0.1440.900" timestamp="1593039260839" />
+    <state x="-1181" y="118" key="Vcs.Push.Dialog.v2/-1452.-765.1298.768/-1440.3.1152.720/-2880.3.1152.720/0.0.1378.900@-1440.3.1152.720" timestamp="1592517243833" />
+    <state x="310" y="144" key="Vcs.Push.Dialog.v2/0.0.1378.900/-1440.3.1152.720/-2880.3.1152.720/-1452.-765.1088.614@0.0.1378.900" timestamp="1593416844471" />
+    <state x="331" y="138" key="Vcs.Push.Dialog.v2/0.0.1474.864/1920.0.819.614@0.0.1474.864" timestamp="1592347026244" />
+    <state x="331" y="138" key="Vcs.Push.Dialog.v2/0.0.1474.864@0.0.1474.864" timestamp="1592266894964" />
+    <state x="512" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1593208842135">
+      <screen x="0" y="0" width="1378" height="900" />
+    </state>
+    <state x="512" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1452.-765.1038.614/-1440.3.1152.720/-2880.3.1152.720/0.0.1378.900@0.0.1378.900" timestamp="1592599749617" />
+    <state x="535" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1452.-765.1038.614/-1440.3.1152.720/-2880.3.1152.720/0.0.1440.900@0.0.1440.900" timestamp="1593126009721" />
+    <state x="535" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1452.-765.1088.614/-1440.3.1152.720/-2880.3.1152.720/0.0.1440.900@0.0.1440.900" timestamp="1593040706158" />
+    <state x="-1012" y="280" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1452.-765.1298.768/-1440.3.1152.720/-2880.3.1152.720/0.0.1378.900@-1440.3.1152.720" timestamp="1592521374759" />
+    <state x="-905" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1304.768/-1440.0.1440.900/-2880.0.1440.900@-1440.0.1440.900" timestamp="1592424859511" />
+    <state x="512" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1378.900/-1440.3.1152.720/-2880.3.1152.720/-1452.-765.1088.614@0.0.1378.900" timestamp="1593208842135" />
+    <state x="548" y="332" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1474.864/1920.0.819.614@0.0.1474.864" timestamp="1592346660821" />
+    <state x="548" y="332" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1474.864@0.0.1474.864" timestamp="1592267064427" />
+    <state x="451" y="238" key="git4idea.merge.GitMergeDialog" timestamp="1593149245891">
+      <screen x="0" y="0" width="1378" height="900" />
+    </state>
+    <state x="451" y="238" key="git4idea.merge.GitMergeDialog/0.0.1378.900/-1440.3.1152.720/-2880.3.1152.720/-1452.-765.1088.614@0.0.1378.900" timestamp="1593149245891" />
+    <state x="318" y="238" key="git4idea.merge.GitPullDialog" timestamp="1593208837716">
+      <screen x="0" y="0" width="1378" height="900" />
+    </state>
+    <state x="318" y="238" key="git4idea.merge.GitPullDialog/0.0.1378.900/-1440.3.1152.720/-2880.3.1152.720/-1452.-765.1088.614@0.0.1378.900" timestamp="1593208837716" />
+    <state x="-1057" y="190" width="672" height="678" key="search.everywhere.popup" timestamp="1592427590693">
+      <screen x="-1440" y="0" width="1440" height="900" />
+    </state>
+    <state x="-1057" y="190" width="672" height="678" key="search.everywhere.popup/0.0.1304.768/-1440.0.1440.900/-2880.0.1440.900@-1440.0.1440.900" timestamp="1592427590693" />
+  </component>
+</project>

@@ -1,0 +1,34 @@
+{% extends 'PhotoApp/PhotoApp_base.html' %}
+{% load staticfiles %}
+{% block templatecontent %}
+<section>
+    <div class="flex-container PhotoApp text-center" id="PhotoDetailPage">
+        <table>
+            <br><br/>
+            <tr>
+                <th>Dark Room: </th>
+                <td>{{album.DarkRoom}}</td>
+            </tr>
+            <tr>
+                <th>Photo Booth: </th>
+                <td>{{album.PhotoBooth}}</td>
+            </tr>
+            <tr>
+                <th>Polaroid Instant: </th>
+                <td>{{album.PolaroidInstant}}</td>
+            </tr>
+            <tr>
+                <th>Digital: </th>
+                <td>{{album.Digital}}</td>
+            </tr>
+            <tr>
+                <th>Photographic Film: </th>
+                <td>{{album.PhotographicFilm}}</td>
+            </tr>
+        </table>
+        <button class="primary-bright-button" type="button" onclick=" location.href='{% url 'Genre of Photography' %}'">Add to collection</button>
+        <button class="primary-bright-button"  type="button" onclick=" location.href='{% url 'Genre of Photography' %}'">back to collection</button><br>
+        <br/>
+    </div>
+</section>
+{% endblock %}

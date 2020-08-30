@@ -1,0 +1,13 @@
+﻿#animate {
+    position: absolute;
+    border: 1px solid green;
+    background-image:url(/Media/9a7eaf28c3f3375ea5d0d3d52e2277fb.gif)
+    background-repeat: no-repeat;
+    display: flex;
+    width: 75px;
+    height: 75px;
+}
+
+h1 {
+    color: green;
+}

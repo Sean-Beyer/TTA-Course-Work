@@ -1,0 +1,7 @@
+C:\Users\Seann\Matrix\The-Tech-Academy-Basic-C-Sharp-Projects\StringFunctions-Assingment125\StringFunctions-Assingment125\bin\Debug\StringFunctions-Assingment125.exe.config
+C:\Users\Seann\Matrix\The-Tech-Academy-Basic-C-Sharp-Projects\StringFunctions-Assingment125\StringFunctions-Assingment125\bin\Debug\StringFunctions-Assingment125.exe
+C:\Users\Seann\Matrix\The-Tech-Academy-Basic-C-Sharp-Projects\StringFunctions-Assingment125\StringFunctions-Assingment125\bin\Debug\StringFunctions-Assingment125.pdb
+C:\Users\Seann\Matrix\The-Tech-Academy-Basic-C-Sharp-Projects\StringFunctions-Assingment125\StringFunctions-Assingment125\obj\Debug\StringFunctions-Assingment125.csprojAssemblyReference.cache
+C:\Users\Seann\Matrix\The-Tech-Academy-Basic-C-Sharp-Projects\StringFunctions-Assingment125\StringFunctions-Assingment125\obj\Debug\StringFunctions-Assingment125.csproj.CoreCompileInputs.cache
+C:\Users\Seann\Matrix\The-Tech-Academy-Basic-C-Sharp-Projects\StringFunctions-Assingment125\StringFunctions-Assingment125\obj\Debug\StringFunctions-Assingment125.exe
+C:\Users\Seann\Matrix\The-Tech-Academy-Basic-C-Sharp-Projects\StringFunctions-Assingment125\StringFunctions-Assingment125\obj\Debug\StringFunctions-Assingment125.pdb

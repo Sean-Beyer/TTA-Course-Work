@@ -1,0 +1,7 @@
+C:\Users\Seann\Matrix\The-Tech-Academy-Basic-C-Sharp-Projects\BLAssignment100\BLAssignment100\bin\Debug\BLAssignment100.exe.config
+C:\Users\Seann\Matrix\The-Tech-Academy-Basic-C-Sharp-Projects\BLAssignment100\BLAssignment100\bin\Debug\BLAssignment100.exe
+C:\Users\Seann\Matrix\The-Tech-Academy-Basic-C-Sharp-Projects\BLAssignment100\BLAssignment100\bin\Debug\BLAssignment100.pdb
+C:\Users\Seann\Matrix\The-Tech-Academy-Basic-C-Sharp-Projects\BLAssignment100\BLAssignment100\obj\Debug\BLAssignment100.csprojAssemblyReference.cache
+C:\Users\Seann\Matrix\The-Tech-Academy-Basic-C-Sharp-Projects\BLAssignment100\BLAssignment100\obj\Debug\BLAssignment100.csproj.CoreCompileInputs.cache
+C:\Users\Seann\Matrix\The-Tech-Academy-Basic-C-Sharp-Projects\BLAssignment100\BLAssignment100\obj\Debug\BLAssignment100.exe
+C:\Users\Seann\Matrix\The-Tech-Academy-Basic-C-Sharp-Projects\BLAssignment100\BLAssignment100\obj\Debug\BLAssignment100.pdb

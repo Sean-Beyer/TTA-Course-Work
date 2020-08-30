@@ -1,0 +1,339 @@
+/*==================================================================
+    Author: Sean Beyer a.k.a. Thalious
+    seanbeyermail@gmail.com
+===================================================================
+    GENERIC STYLES
+=================================================================*/
+html {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 62.5%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+body {
+    font-size: 14px;
+    margin: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: darkblue;
+}
+
+footer, nav {
+    display: block;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: sans-serif;
+}
+
+h1 {
+    line-height: 50px;
+    font-weight: 900;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    color: cyan;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+    line-height: 50px;
+    color: #e91c1c;
+}
+
+h3 {
+    line-height: 30px;
+    padding-bottom: 20px;
+}
+
+h4 {
+    padding-top: 25px;
+    line-height: 40px;
+    padding-bottom: 0px;
+    font-size: 22px;
+    font-weight: 900;
+}
+
+p {
+    font-weight: 300;
+    line-height: 30px;
+    padding-bottom: 15px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.heading-padding {
+    padding-bottom: 40px;
+}
+
+section {
+    padding-top: 50px;
+    margin-top: 50px;
+}
+
+.navbar {
+    height: 105px;
+    max-height: 340px;
+    display: block;
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.clearfix::after,
+.container::after,
+.navbar::after {
+    clear: both;
+    display: table;
+    content: " ";
+}
+
+.wrap {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    /* This ensure that the image cannot
+       render outside of their container
+       without forcing any scrollbars*/
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    text-align: center;
+}
+
+.menu-container {
+    max-height: 340px;
+    margin: 0% auto;
+    content: " ";
+    /* top: 0;
+    left: 0 */
+    /* position: absolue; */ /* to the top edge of the screen */
+    width: 100%;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    /*background-color: rgba(255, 255, 255, 0.5;*/
+}
+
+/*==================================================================
+    HOME SECTION STYLES
+==================================================================*/
+#home {
+    background: url(../images/spacebkgd.jpg) no-repeat 50% 50%;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    display: block;
+    height: auto;
+    padding-top: 350px; /*This is spacer befor the Main title Logo */
+    padding-bottom: 350px; /*This is the spacer after the Main title Logo */
+    color: cyan;
+}
+
+.head-main {
+    text-shadow: 2px 4px 5px rgba(0, 0, 0, 0.9);
+    font-variant: small-caps;
+    color: cyan;
+    letter-spacing: 5pt;
+    word-spacing: 21pt;
+    font-size: 4.5em;
+    text-align: left;
+    font-family: impact, sans-serif;
+    line-height: 2;
+    font-weight: 900;
+    border: 5px double lime;
+    padding: 10px;
+}
+
+.head-sub-main {
+    font-size: 23px;
+    font-weight: 500;
+    padding: 50px 20px 10px 20px;
+    text-transform: uppercase;
+}
+
+.head-last {
+    font-size: 18px;
+    font-weight: 900;
+    border: 1 px dotted #fff;
+    padding: 5px;
+}
+
+/*==================================================================
+    Contact Styles
+==================================================================*/
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 0px auto;
+    background-color: rgba(100, 65, 0, 0.3);
+    box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+#contact {
+    background-color: darkblue;
+}
+
+.submission {
+    width: 60%;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 0px auto;
+    background-color: rgba(100, 65, 0, 0.3);
+    box-shadow: -1px -1px 1px 0 rgba(0, 0, 0, 0.1), 1px 2px 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+.submission h2 {
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+    color: limegreen;
+    font-weight: 500;
+    font-size: 1.3cm;
+    letter-spacing: 0pt;
+    word-spacing: 0pt;
+}
+
+.submission h2 span {
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+    color: darkcyan;
+    font-weight: 900;
+    font-size: 1.5cm;
+    font-variant: small-caps;
+    letter-spacing: .4pt;
+    word-spacing: .3pt;
+}
+
+.submission p {
+    color: darkcyan;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: medium;
+}
+
+.submission form {
+    font-size: 15px;
+    outline: thick;
+    font-weight: 600;
+    color: black;
+    padding: 12px 12px;
+    width: 70%;
+    border: 1px solid silver;
+    margin: 2% auto;
+    border-radius: 7px;
+    background: darkcyan;
+    box-shadow: 2px 3px 3px 0px rgba(0, 0, 0, 0.3);
+    font-family: fantasy;
+
+}
+
+.submission input[type="text"] {
+    font-size: 15px;
+    outline: thin;
+    font-weight: 300;
+    color: #e91c1c;
+    padding: 24 14 24 74;
+    width: 80%;
+    text-align: center;
+    border-top: 1px solid lime;
+    border-right: 2px solid limegreen;
+    border-bottom: 2px solid limegreen;
+    border-left: 1px solid lime;
+    margin: 10px 1cm;
+    border-radius: 7px;
+    background: whitesmoke;
+    box-shadow: inset 0px 3px 0px rgba(5, 5, 5, 0.15);
+    font-family: fantasy;
+}
+
+.submission input[type="text"]:hover {
+    box-shadow: 0 0 18px rgba(100, 65, 0, 0.8);
+}
+
+.form-spacer {
+    padding: 15px 19px;
+}
+
+.new {
+    margin: 30px 1px 0 0 ;
+    padding-left: 52px;
+    font-size: 14px;
+    line-height: 5px;
+    color: cyan;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    position: relative;
+    display: inline;
+    float: right;
+}
+
+.new:hover {
+    color: lime;
+    text-decoration: underline;
+}
+
+.Submit input[type="Submit"] {
+    color: rgb(225,225,225);
+    cursor: pointer;
+    border: none;
+    font-weight: 900;
+    text-align: center;
+    outline: none;
+    font-family: Raleway, sans-serif;
+    margin: 0px 3%;
+    padding: 7px 0px;
+    width: 25%;
+    font-size: 18px;
+    transition: border-color 0.3s color 0.3s background-color 0.3s;
+    border-radius: 7px;
+    background-color: #797a7b;
+    box-shadow: 1px 1px 4px 0 lime;
+}
+
+.Submit input[type="Submit"]:hover {
+    color: cyan;
+    background-color: lime;
+    box-shadow: inset 1px 2px 15px 0 rgba(0, 0, 0, 0.5);
+}
+
+/*=====================================================
+    FOOTER STYLES
+=====================================================*/
+#footer {
+    background-color: rgba(100, 65, 0, 0.3);
+    color: cyan;
+    text-shadow: 2px 2px 8px 0 (0,0,0,0.4);
+    padding: 20px 50px 20px 50px;
+    text-align: right;
+}

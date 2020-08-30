@@ -1,0 +1,14 @@
+/* =======================================
+    EARNINGS APP CUSTOM STYLES - APP-WIDE
+   ======================================= */
+
+.pagetop-cover {
+  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('images/wallst.jpg') right bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+}
+
+/* ==================
+    HOME PAGE STYLES
+   ================== */

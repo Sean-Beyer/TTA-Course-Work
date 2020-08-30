@@ -1,0 +1,22 @@
+{% extends 'Modify/Modify_base.html' %}
+{% load staticfiles %}
+{% block templatecontent %}
+<section >
+    <div class="flex-container" id="">
+        <table class="table-striped">
+            <tr>
+                <th class="col-md">Genre</th>
+                <th class="col-md">News Outlet</th>
+            </tr>
+            {% for item in mnews %}     <!-- creates a new row for each jersey in the collection -->
+                <tr>
+                    <td class="col-md-6">{{item.genre}}</td>
+                    <td class="col-md-6">{{item.NewsOutlets}}</td>
+                    <td class="col-md"><a href="{{item.pk}}/Details"><button class="primary-light-button" id="info-button">Details</button></a></td>
+                </tr>
+            {% endfor %}
+        </table>
+        <button class="primary-bright-button" type="button" onclick=" location.href='{% url 'createMNews' %}'">Add to Collection</button>
+    </div>
+</section>
+{% endblock %}

@@ -1,0 +1,33 @@
+Value								Description	Play it
+h-shadow			Required. The position of the horizontal shadow. Negative values are allowed	
+v-shadow			Required. The position of the vertical shadow. Negative values are allowed	
+blur-radius			Optional. The blur radius. Default value is 0	
+color				Optional. The color of the shadow. Look at CSS Color Values for a complete list of possible color values	
+none				Default value. No shadow	
+initial				Sets this property to its default value. Read about initial	
+inherit				Inherits this property from its parent element.
+
+
+Text-shadow with a blur effect:
+h1 {
+  text-shadow: 2px 2px 8px #FF0000;
+}
+
+
+Text-shadow on a white text:
+h1 {
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+
+Text-shadow with a red neon glow:
+h1 {
+  text-shadow: 0 0 3px #FF0000;
+}
+
+
+Text-shadow with a red and blue neon glow:
+h1 {
+  text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+}

@@ -1,0 +1,33 @@
+{% extends 'HikingApp/Hiking_base.html' %}
+{% load staticfiles %}
+{% block templatecontent %}
+<section >
+    <div class="flex-container Hiking" id="HikesDonePage">
+        <table class="table-striped">
+            <tr>
+                <th class="col-md">Hike Name</th>
+                <th class="col-md">Date</th>
+                <th class="col-md">Start Time</th>
+                <th class="col-md">Difficulty</th>
+                <th class="col-md">Completed</th>
+                <th class="col-md">End Time</th>
+                <th class="col-md">Rating</th>
+                <th class="col-md">&nbsp;Info</th>
+            </tr>
+            {% for hike in hikes %}     <!-- creates a new row for each hike in the collection -->
+                <tr>
+                    <td class="col-md">{{hike.Hike_Name}}</td>
+                    <td class="col-md">{{hike.Date}}</td>
+                    <td class="col-md">{{hike.Start_Time}}</td>
+                    <td class="col-md">{{hike.Difficulty}}</td>
+                    <td class="col-md">{{hike.Completed}}</td>
+                    <td class="col-md">{{hike.End_Time}}</td>
+                    <td class="col-md">{{hike.Rating}}</td>
+                    <td class="col-md"><a href="{{hike.pk}}/Details"><button class="primary-light-button" id="info-button">Details</button></a></td>    <!-- creates a link for that specific hike -->
+                </tr>
+            {% endfor %}
+        </table>
+        <button class="primary-bright-button" type="button" onclick=" location.href='{% url 'createHike' %}'">Add to Hikes</button>
+    </div>
+</section>
+{% endblock %}

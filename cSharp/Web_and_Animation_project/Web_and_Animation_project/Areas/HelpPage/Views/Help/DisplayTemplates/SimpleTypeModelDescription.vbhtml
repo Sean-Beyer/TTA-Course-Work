@@ -1,0 +1,3 @@
+@Imports Web_and_Animation_project.Areas.HelpPage.ModelDescriptions
+@ModelType SimpleTypeModelDescription
+@Model.Documentation

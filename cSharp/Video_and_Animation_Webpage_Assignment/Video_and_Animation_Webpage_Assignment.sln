@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Video_and_Animation_Webpage_Assignment", "Video_and_Animation_Webpage_Assignment\Video_and_Animation_Webpage_Assignment.csproj", "{C8BAF8EC-7550-4155-8C0A-8B5419E8DBED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C8BAF8EC-7550-4155-8C0A-8B5419E8DBED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8BAF8EC-7550-4155-8C0A-8B5419E8DBED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8BAF8EC-7550-4155-8C0A-8B5419E8DBED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8BAF8EC-7550-4155-8C0A-8B5419E8DBED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {679C8428-EBA1-423E-A136-04AF1FDDA683}
+	EndGlobalSection
+EndGlobal

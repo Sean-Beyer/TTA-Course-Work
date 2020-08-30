@@ -1,0 +1,7 @@
+C:\Users\Seann\Matrix\The-Tech-Academy-Basic-C-Sharp-Projects\ArrayAndLists-Assignment130\ArrayAndLists-Assignment130\bin\Debug\ArrayAndLists-Assignment130.exe.config
+C:\Users\Seann\Matrix\The-Tech-Academy-Basic-C-Sharp-Projects\ArrayAndLists-Assignment130\ArrayAndLists-Assignment130\bin\Debug\ArrayAndLists-Assignment130.exe
+C:\Users\Seann\Matrix\The-Tech-Academy-Basic-C-Sharp-Projects\ArrayAndLists-Assignment130\ArrayAndLists-Assignment130\bin\Debug\ArrayAndLists-Assignment130.pdb
+C:\Users\Seann\Matrix\The-Tech-Academy-Basic-C-Sharp-Projects\ArrayAndLists-Assignment130\ArrayAndLists-Assignment130\obj\Debug\ArrayAndLists-Assignment130.csprojAssemblyReference.cache
+C:\Users\Seann\Matrix\The-Tech-Academy-Basic-C-Sharp-Projects\ArrayAndLists-Assignment130\ArrayAndLists-Assignment130\obj\Debug\ArrayAndLists-Assignment130.csproj.CoreCompileInputs.cache
+C:\Users\Seann\Matrix\The-Tech-Academy-Basic-C-Sharp-Projects\ArrayAndLists-Assignment130\ArrayAndLists-Assignment130\obj\Debug\ArrayAndLists-Assignment130.exe
+C:\Users\Seann\Matrix\The-Tech-Academy-Basic-C-Sharp-Projects\ArrayAndLists-Assignment130\ArrayAndLists-Assignment130\obj\Debug\ArrayAndLists-Assignment130.pdb

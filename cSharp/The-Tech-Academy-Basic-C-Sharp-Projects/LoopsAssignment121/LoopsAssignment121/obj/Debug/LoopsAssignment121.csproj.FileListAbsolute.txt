@@ -1,0 +1,7 @@
+C:\Users\Seann\Matrix\The-Tech-Academy-Basic-C-Sharp-Projects\LoopsAssignment121\LoopsAssignment121\bin\Debug\LoopsAssignment121.exe.config
+C:\Users\Seann\Matrix\The-Tech-Academy-Basic-C-Sharp-Projects\LoopsAssignment121\LoopsAssignment121\bin\Debug\LoopsAssignment121.exe
+C:\Users\Seann\Matrix\The-Tech-Academy-Basic-C-Sharp-Projects\LoopsAssignment121\LoopsAssignment121\bin\Debug\LoopsAssignment121.pdb
+C:\Users\Seann\Matrix\The-Tech-Academy-Basic-C-Sharp-Projects\LoopsAssignment121\LoopsAssignment121\obj\Debug\LoopsAssignment121.csprojAssemblyReference.cache
+C:\Users\Seann\Matrix\The-Tech-Academy-Basic-C-Sharp-Projects\LoopsAssignment121\LoopsAssignment121\obj\Debug\LoopsAssignment121.csproj.CoreCompileInputs.cache
+C:\Users\Seann\Matrix\The-Tech-Academy-Basic-C-Sharp-Projects\LoopsAssignment121\LoopsAssignment121\obj\Debug\LoopsAssignment121.exe
+C:\Users\Seann\Matrix\The-Tech-Academy-Basic-C-Sharp-Projects\LoopsAssignment121\LoopsAssignment121\obj\Debug\LoopsAssignment121.pdb

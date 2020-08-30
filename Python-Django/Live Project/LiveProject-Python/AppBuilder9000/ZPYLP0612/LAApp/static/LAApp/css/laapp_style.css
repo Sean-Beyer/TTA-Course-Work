@@ -1,0 +1,231 @@
+/* =============== Styling for LAApp ================ */
+
+/*for base styling */
+.cover-laapp {
+    background: url('../images/LAApp_home.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+}
+ .laapp_contact-btn {
+      display: inline-block;
+      justify-content: center;
+      margin: 0 auto;
+      padding: 10px 20px;
+      border: 2px solid var(--dark);
+      border-radius: 10px;
+      background: white;
+      color: var(--dark);
+      text-decoration: none;
+      transition: 0.3s;
+      opacity: 0.7;
+  }
+  .laapp_contact-btn:hover {
+    background: var(--dark);
+    color: white;
+    opacity: 1;
+  }
+
+  /*for home page center*/
+
+  .laapp_center {
+      display:inline-block;
+      padding:2px 3px;
+      color: var(--dark);
+      width: 100%;
+      margin-top: 30px;
+      margin-bottom: 30px;
+      text-align: center;
+      line-height:1.5em;
+  }
+  /*for collection index page*/
+
+#authorCollectionPage {
+    padding: 35px;
+}
+
+.laapp_flex-container {
+    display: inline-block;
+    align: center;
+}
+
+#authorCollectionPage table th
+ {
+    background:var(--dark);
+    color: white;
+    text-align:center;
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-bottom: 4px solid black;
+}
+
+#authorCollectionPage table td
+ {
+     background: lightgrey;
+     color: black;
+     text-align:left;
+     font-size: 18px;
+}
+
+.laapp_addauthors-btn {
+    display: flex;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: 2px solid var(--dark);
+    border-radius: 5px;
+    background: white;
+    color: var(--dark);
+    font-size: 20px;
+}
+
+.laapp_addauthors-btn:hover {
+    background: var(--dark);
+    color: white;
+}
+
+.laapp_authdetail-btn {
+    border: 2px solid var(--dark);
+    border-radius: 5px;
+    background: white;
+    color: var(--dark);
+    font-size: 18px;
+}
+
+.laapp_authdetail-btn:hover {
+    background: navyblue;
+    color: white;
+}
+
+.laapp_r_arrow {
+    max-width: 5%;
+}
+/*for dropdown alphabet selector*/
+/*hidden until JavaScript added*/
+.laapp_chooseletter {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 5px;
+    background: var(--dark);
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: bold;
+}
+/*for dropdown alphabet selector*/
+/*hidden until JavaScript added*/
+.laappselect_flex-box {
+    display: block;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    width: 100%;
+}
+.laapp_options {
+    text-align: center;
+}
+.laapp_authorsblurb {
+    padding-top: 15px;
+    text-align: center;
+    font-size: 15px;
+}
+/*for displaying wikipedia authors*/
+.flex-container w_author {
+    padding: 30px;
+    margin-top: 30px;
+    display: inline-block;
+    align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+/*for displaying each letter as a header*/
+.laapp_alphaheader {
+    display: block;
+    background: var(--dark);
+    color: white;
+    font-size: 30px;
+    text-decoration: bold;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+/*for author information table */
+#laapp_authorinfo {
+    width: 100%;
+    border-collapse;
+}
+#laapp_authorinfo td, #laapp_authorinfo th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+#laapp_authorinfo tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+#laapp_authorinfo tr:hover {
+    background-color:#ddd;
+}
+#laapp_authorinfo th {
+    text-align: center;
+    background-color: #008080;
+    color:white;
+}
+/*for api page styling */
+.laapp_searchISBN {
+    display: block;
+    align: center;
+    margin-right: auto;
+    margin-left: auto;
+    background: var(--dark);
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    text-decoration: bold;
+    padding-bottom: 10px;
+    padding-top: 30px;
+    border-bottom: 4px solid black;
+}
+
+#book_search{
+    display: block;
+    width: 100%;
+    float: center;
+    align: center;
+    border: 4px solid black;
+    border-radius: 5px;
+}
+
+.bs_col-sm-3 {
+    background: lightgrey;
+     color: black;
+
+     font-size: 18px;
+     padding: 10px;
+     border-bottom: 4px solid black;
+}
+
+ #book_image {
+    display: inline-block;
+ }
+
+.laapp_submit-btn {
+    display: inline-block;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background: white;
+    color: var(--dark);
+    font-size: 20px;
+}
+
+.laapp_submit-btn:hover {
+    background: var(--dark);
+    border: 2px solid black;
+    color: white;
+}

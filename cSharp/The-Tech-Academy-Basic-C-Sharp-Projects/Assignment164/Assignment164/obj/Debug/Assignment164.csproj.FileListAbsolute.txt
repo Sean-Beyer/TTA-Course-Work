@@ -1,0 +1,7 @@
+C:\Users\Seann\Matrix\The-Tech-Academy-Basic-C-Sharp-Projects\Assignment164\Assignment164\bin\Debug\Assignment164.exe.config
+C:\Users\Seann\Matrix\The-Tech-Academy-Basic-C-Sharp-Projects\Assignment164\Assignment164\bin\Debug\Assignment164.exe
+C:\Users\Seann\Matrix\The-Tech-Academy-Basic-C-Sharp-Projects\Assignment164\Assignment164\bin\Debug\Assignment164.pdb
+C:\Users\Seann\Matrix\The-Tech-Academy-Basic-C-Sharp-Projects\Assignment164\Assignment164\obj\Debug\Assignment164.csprojAssemblyReference.cache
+C:\Users\Seann\Matrix\The-Tech-Academy-Basic-C-Sharp-Projects\Assignment164\Assignment164\obj\Debug\Assignment164.csproj.CoreCompileInputs.cache
+C:\Users\Seann\Matrix\The-Tech-Academy-Basic-C-Sharp-Projects\Assignment164\Assignment164\obj\Debug\Assignment164.exe
+C:\Users\Seann\Matrix\The-Tech-Academy-Basic-C-Sharp-Projects\Assignment164\Assignment164\obj\Debug\Assignment164.pdb

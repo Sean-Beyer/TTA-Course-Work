@@ -1,0 +1,7 @@
+C:\Users\Seann\Matrix\The-Tech-Academy-Basic-C-Sharp-Projects\Classes-Assignment160\Classes-Assignment160\bin\Debug\Classes-Assignment160.exe.config
+C:\Users\Seann\Matrix\The-Tech-Academy-Basic-C-Sharp-Projects\Classes-Assignment160\Classes-Assignment160\bin\Debug\Classes-Assignment160.exe
+C:\Users\Seann\Matrix\The-Tech-Academy-Basic-C-Sharp-Projects\Classes-Assignment160\Classes-Assignment160\bin\Debug\Classes-Assignment160.pdb
+C:\Users\Seann\Matrix\The-Tech-Academy-Basic-C-Sharp-Projects\Classes-Assignment160\Classes-Assignment160\obj\Debug\Classes-Assignment160.csprojAssemblyReference.cache
+C:\Users\Seann\Matrix\The-Tech-Academy-Basic-C-Sharp-Projects\Classes-Assignment160\Classes-Assignment160\obj\Debug\Classes-Assignment160.csproj.CoreCompileInputs.cache
+C:\Users\Seann\Matrix\The-Tech-Academy-Basic-C-Sharp-Projects\Classes-Assignment160\Classes-Assignment160\obj\Debug\Classes-Assignment160.exe
+C:\Users\Seann\Matrix\The-Tech-Academy-Basic-C-Sharp-Projects\Classes-Assignment160\Classes-Assignment160\obj\Debug\Classes-Assignment160.pdb

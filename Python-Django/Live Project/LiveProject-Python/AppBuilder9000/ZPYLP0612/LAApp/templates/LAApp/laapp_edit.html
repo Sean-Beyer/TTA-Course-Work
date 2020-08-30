@@ -1,0 +1,19 @@
+{% extends 'LAApp/LAApp_base.html' %}
+{% load staticfiles %}
+{% block templatecontent %}
+<section>
+    <div class="flex-container">
+        <form method='POST'>
+            {% csrf_token %}
+            <table>
+                {{ form.as_table }}
+            </table>
+            {{ form.non_field_errors }}
+            <button class="primary-bright-button" type="submit">Save Changes</button>
+            <button class="primary-bright-button" type="button" onclick="location.href='{% url 'confirm' pk=pk %}'">Delete Entry</button>
+        </form>
+        <hr />
+        <button class="primary-bright-button" type="button" onclick="location.href='{% url 'listAuthors' %}'">Back to Authors</button>
+    </div>
+</section>
+{% endblock %}

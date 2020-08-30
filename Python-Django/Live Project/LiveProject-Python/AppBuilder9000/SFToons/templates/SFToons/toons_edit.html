@@ -1,0 +1,43 @@
+{% extends 'SFToons/toons_base.html' %}
+{% load staticfiles %}
+{% block templatecontent %}
+    <section>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="{{ toons_style.css }}">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <div>
+            <form method="POST">
+                {%csrf_token%}
+                <table class="table table-hover table-dark txt" id="toons_details_tbl">
+                    {{form.as_table}}
+                </table>
+                {{form.non_field_errors}}
+                <div class="align-self-center bttn">
+                    <div class="btncntr">
+                        <button class="btn btn-primary btn-lg btn-block" type="submit" name="Save_Character">Save</button>
+                        <button class="btn btn-primary btn-lg btn-block" type="button" data-toggle="modal" data-target="#myModal">Delete</button>
+                    </div>
+                </div>
+                  <div class="modal fade" id="myModal" role="dialog">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h4 class="modal-title">Delete Forever?</h4>
+                        </div>
+                        <div class="modal-body">
+                          <p>Are you sure you want to delete {{ character }}?</p>
+                        </div>
+                        <div class="modal-footer btn-group" role="group" aria-label="Basic example">
+                            <button type="button" class="primary-light-button" data-dismiss="modal">Cancel</button>
+                            <a href="{% url 'characterDelete' pk %}"><button type="button" class="primary-light-button">Delete</button></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+            </form>
+            <hr/>
+            <button class="btn btn-primary btn-lg" type="button" onclick="location.href='{% url 'listToons' %}'">Back to Roster</button>
+
+{% endblock %}

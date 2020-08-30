@@ -1,0 +1,7 @@
+C:\Users\Seann\Matrix\The-Tech-Academy-Basic-C-Sharp-Projects\TTAReportsP71\TTAReportsP71\obj\Debug\TTAReportsP71.csprojAssemblyReference.cache
+C:\Users\Seann\Matrix\The-Tech-Academy-Basic-C-Sharp-Projects\TTAReportsP71\TTAReportsP71\obj\Debug\TTAReportsP71.csproj.CoreCompileInputs.cache
+C:\Users\Seann\Matrix\The-Tech-Academy-Basic-C-Sharp-Projects\TTAReportsP71\TTAReportsP71\bin\Debug\TTAReportsP71.exe.config
+C:\Users\Seann\Matrix\The-Tech-Academy-Basic-C-Sharp-Projects\TTAReportsP71\TTAReportsP71\bin\Debug\TTAReportsP71.exe
+C:\Users\Seann\Matrix\The-Tech-Academy-Basic-C-Sharp-Projects\TTAReportsP71\TTAReportsP71\bin\Debug\TTAReportsP71.pdb
+C:\Users\Seann\Matrix\The-Tech-Academy-Basic-C-Sharp-Projects\TTAReportsP71\TTAReportsP71\obj\Debug\TTAReportsP71.exe
+C:\Users\Seann\Matrix\The-Tech-Academy-Basic-C-Sharp-Projects\TTAReportsP71\TTAReportsP71\obj\Debug\TTAReportsP71.pdb

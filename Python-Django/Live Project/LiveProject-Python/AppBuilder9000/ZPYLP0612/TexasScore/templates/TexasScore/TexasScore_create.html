@@ -1,0 +1,17 @@
+{% extends 'TexasScore/TexasScore_base.html' %}
+{% load staticfiles %}
+{% block templatecontent %}
+<section>
+    <div class="main-content">
+        <form method="post">
+            {% csrf_token %}
+            <table>
+                {{ form.as_table }}
+            </table>
+            {{ form.non_field_errors }}
+            <button class="primary-bright-button" type="submit" onclick=" location.href='{% url 'createGame' %}'"> Add Game </button>
+        </form>
+        <button class="primary-bright-button" type="button" onclick=" location.href='{% url 'giveGames' %}'"> View Games </button>
+    </div>
+</section>
+{% endblock %}

@@ -1,0 +1,10 @@
+<h1>Animal Adoption Form</h1>
+<form>
+    <table>
+        {{ form.as_table }}
+    </table?>
+    {{ form.non_field_errors }}
+    <br />
+    <button class="contact-btn" type="submit"> Adopt </button>
+    <button class="contact-btn" type="button" onclick=" location.href='{% url 'pets' %}'">Back to Collection</button>
+</form>

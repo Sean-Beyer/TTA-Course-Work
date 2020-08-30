@@ -1,0 +1,31 @@
+{% extends 'TexasScore/TexasScore_base.html' %}
+{% load staticfiles %}
+{% block templatecontent %}
+<section>
+    <div class="flex-container">
+        <table class="table">
+            <tr>
+                <th class="col-md">Opponent:</th>
+                <th class="col-md">Stadium:</th>
+                <th class="col-md">Time of Day:</th>
+                <th class="col-md">Significance:</th>
+                <th class="col-md">Score:</th>
+                <th class="col-md">Winner:</th>
+            </tr>
+            {% for game in games %}
+                <tr>
+                    <td class="col-md">{{game.against}}</td>
+                    <td class="col-md">{{game.stadium}}</td>
+                    <td class="col-md">{{game.time_of_day}}</td>
+                    <td class="col-md">{{game.significance}}</td>
+                    <td class="col-md">{{game.score}}</td>
+                    <td class="col-md">{{game.win_loss}}</td>
+
+                    <td class="col-md"><a href="{{game.pk}}/Details"><button class="primary-light-button" id="info-button">Game Details</button></a></td>
+                </tr>
+            {% endfor %}
+        </table>
+        <button class="primary-bright-button" type="button" onclick=" location.href='{% url 'createGame' %}'">Add Game</button>
+    </div>
+</section>
+{% endblock %}

@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% block title %}Photography{% endblock %}
+{% load staticfiles %}
+{% block stylesheets %}
+    {{ block.super }}
+    <link rel="stylesheet" type="text/css" href="{% static 'PhotoApp/Photoapp_style.css' %}">
+{% endblock %}
+
+{% block pagetop-css %} cover-Photo {% endblock %}
+
+{% block page-title %}Photo App{% endblock %}
+{% block page-subtitle %}Photo Photo!{% endblock %}
+{% block button1 %}<a href="{% url 'PhotoApp' %}" class="contact-btn">Time Of Day</a>{% endblock %}
+{% block button2 %}<a href="{% url 'Genre of Photography' %}" class="contact-btn">Style</a>{% endblock %}
+{% block button3 %}<a href="{% url 'PhotoApp' %}" class="contact-btn">Find Photographer</a>{% endblock %}
+
+
+{% block appcontent %}
+
+
+    {% block templatecontent %}{% endblock %} <!-- section that all the template specific content will render within -->
+{% endblock %}

@@ -1,0 +1,32 @@
+{% extends 'PhotoApp/PhotoApp_base.html' %}
+{% load staticfiles %}
+{% block templatecontent %}
+    <section>
+        <div class="flex-container Photos text-center" id=PhotophraphyPage>
+            <table class="table-striped">
+                    <tr>
+                        <th class="col-md">Dark Room</th>
+                        <th class="col-md">Photo Booth</th>
+                        <th class="col-md">Polaroid Instant</th>
+                        <th class="col-md">Digital</th>
+                        <th class="col-md">Photographic Film</th>
+                        <th class="col-md">Info</th>
+                    </tr>
+            {% for photo in Photos %}     <!-- creates a new row for each photos in a photo -->
+                <tr>
+                    <td class="col-md">{{photo.DarkRoom}}</td>
+                    <td class="col-md">{{photo.PhotoBooth}}</td>
+                    <td class="col-md">{{photo.PolaroidInstant}}</td>
+                    <td class="col-md">{{photo.Digital}}</td>
+                    <td class="col-md">{{photo.PhotographicFilm}}</td>
+                    </td>
+                    <td class="col-md"><a href="{{photo.pk}}"><button class="primary-light-button" id="info-button">Details</button></a></td>
+                </tr>
+                 {% endfor %}
+            </table>
+        </div>
+            <span class="Photo_center"><strong>Capture It All</strong><br/>
+        Take a quick snap of the different styles of photograhers and theirs collections. Something may catch your eye</span>
+        <button class="primary-bright-button" type="button" onclick=" location.href='{% url 'PhotoAlbum' %}'">Add to Collection</button>
+    </section>
+{% endblock %}

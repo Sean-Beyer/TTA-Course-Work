@@ -1,0 +1,31 @@
+{% extends 'SFToons/toons_base.html' %}
+{% load staticfiles %}
+{% block templatecontent %}
+<section>
+    <div>
+        <table class="table table-hover table-dark">
+            <tr>
+                <th class="text-center text-primary">Character</th>
+                <th class="text-center text-primary">Race</th>
+                <th class="text-center text-primary">Class</th>
+                <th class="text-center text-primary">Theme</th>
+                <th class="text-center text-primary">Society</th>
+            </tr>
+            {% for character in characters %}
+                <tr>
+                    <td class="text-center">{{character.Character_Name}}</td>
+                    <td class="text-center">{{character.Race}}</td>
+                    <td class="text-center">{{character.Class}}</td>
+                    <td class="text-center">{{character.Theme}}</td>
+                    <td class="text-center">
+                        {% if character.Society %} &#8730 {% endif %}
+                    </td>
+                    <td><a href = "{{character.pk}}/Details"><button class="text-center">Details</button></a></td>
+                    <td><a href = "{{character.pk}}/Edit"><button class="text-center">Edit/Delete</button></a></td>
+                </tr>
+            {% endfor %}
+        </table>
+        <button type="button" class="btn btn-primary btn-lg" onclick=" location.href='{% url 'createCharacter' %}'">Add a Character</button>
+    </div>
+</section>
+{% endblock %}

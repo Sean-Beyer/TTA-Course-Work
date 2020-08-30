@@ -1,0 +1,111 @@
+/*==============================================
+    Specific styling Greatest Comedies Demo App
+===============================================*/
+.btn {
+  width: 100%;
+  text-align: center;
+  margin-top: 150px;
+}
+.searchA-btn,
+.searchM-btn {
+  margin: 0 auto;
+  display: inline-block;
+  padding: 10px 20px;
+  border: 1px solid white;
+  background: transparent;
+  color: white;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.searchM-btn {
+  margin-right: 30px;
+}
+.searchA-btn {
+  margin-left: 30px;
+}
+.searchA-btn:hover,
+.searchM-btn:hover {
+  background: light white;
+  color: black;
+  text-decoration: none;
+}
+
+
+/*.GreatestComedies button {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background: seashell;
+    color: ;
+    text-decoration: none;
+    transition: 0.2s;
+    linear-gradient(to left, #00C853, #B2FF59);
+}*\
+
+
+/* ===========================================
+    PARALLAX PAGE STYLES  //  START
+   =========================================== */
+
+.cover-main {
+  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('images/GreatestComedies_background2.jpg') right bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+}
+
+/* ===========================================
+    HELPER CLASS BEGIN
+   =========================================== */
+.alignLeft {
+    float: left;
+}
+.alignRight {
+    float: right;
+}
+.no-margin-bottom {
+    margin-bottom: 0;
+}
+.margin-bottom-10 {
+    margin-bottom: 10px;
+}
+.margin-bottom-20 {
+    margin-bottom: 20px;
+}
+.margin-bottom-30 {
+    margin-bottom: 30px;
+}
+strong,
+b {
+    font-weight: 700;
+}
+em,
+i {
+    font-style: italic;
+}
+p,
+ul li,
+ol li {
+    font-size: 16px;
+    line-height: 23px;
+    margin: 0 0 20px 0;
+}
+ul li,
+ol li {
+    margin-bottom: 10px;
+}
+img {
+  max-width: 100%;
+}
+* {
+    box-sizing: border-box;
+    outline: 0;
+}
+.wrapper {
+  max-width: 1100px;
+  width: 100%;
+  margin: 0 auto;
+}
+.clear{clear:both;}
+/*HELPER CLASS END*/

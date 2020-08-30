@@ -1,0 +1,7 @@
+C:\Users\Seann\Matrix\The-Tech-Academy-Basic-C-Sharp-Projects\ConsoleApp-Assignment137\ConsoleApp-Assignment137\bin\Debug\ConsoleApp-Assignment137.exe.config
+C:\Users\Seann\Matrix\The-Tech-Academy-Basic-C-Sharp-Projects\ConsoleApp-Assignment137\ConsoleApp-Assignment137\bin\Debug\ConsoleApp-Assignment137.exe
+C:\Users\Seann\Matrix\The-Tech-Academy-Basic-C-Sharp-Projects\ConsoleApp-Assignment137\ConsoleApp-Assignment137\bin\Debug\ConsoleApp-Assignment137.pdb
+C:\Users\Seann\Matrix\The-Tech-Academy-Basic-C-Sharp-Projects\ConsoleApp-Assignment137\ConsoleApp-Assignment137\obj\Debug\ConsoleApp-Assignment137.csprojAssemblyReference.cache
+C:\Users\Seann\Matrix\The-Tech-Academy-Basic-C-Sharp-Projects\ConsoleApp-Assignment137\ConsoleApp-Assignment137\obj\Debug\ConsoleApp-Assignment137.csproj.CoreCompileInputs.cache
+C:\Users\Seann\Matrix\The-Tech-Academy-Basic-C-Sharp-Projects\ConsoleApp-Assignment137\ConsoleApp-Assignment137\obj\Debug\ConsoleApp-Assignment137.exe
+C:\Users\Seann\Matrix\The-Tech-Academy-Basic-C-Sharp-Projects\ConsoleApp-Assignment137\ConsoleApp-Assignment137\obj\Debug\ConsoleApp-Assignment137.pdb

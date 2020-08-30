@@ -1,0 +1,83 @@
+{% extends 'SFToons/toons_base.html' %}
+{% load staticfiles %}
+{% block templatecontent %}
+<section>
+    <div class="flex-container toons">
+        <table class="table table-hover table-dark" id="toons_details_tbl">
+            <tr>
+                <th>Player Name</th>
+                <td>{{character.Player_Name}}</td>
+            </tr>
+            <tr>
+                <th>Character Name</th>
+                <td>{{character.Character_Name}}</td>
+            </tr>
+            <tr>
+                <th>Race</th>
+                <td>{{character.Race}}</td>
+            </tr>
+            <tr>
+                <th>HP</th>
+                <td>{{character.HP}}</td>
+            </tr>
+            <tr>
+                <th>Race</th>
+                <td>{{character.Race}}</td>
+            </tr>
+            <tr>
+                <th>Theme</th>
+                <td>{{character.Theme}}</td>
+            </tr>
+            <tr>
+                <th>Class</th>
+                <td>{{character.Class}}</td>
+            </tr>
+            <tr>
+                <th>Level</th>
+                <td>{{character.Level}}</td>
+            </tr>
+            <tr>
+                <th>Size</th>
+                <td>{{character.Size}}</td>
+            </tr>
+            <tr>
+                <th>Society</th>
+                <td>
+                    {% if character.Society %} &#8730 {% endif %}
+                </td>
+            </tr>
+            <tr>
+                <th>Senses</th>
+                <td>{{character.Senses}}</td>
+            </tr>
+            <tr>
+                <th>Speed</th>
+                <td>{{character.Speed}}</td>
+            </tr>
+            <tr>
+                <th>Gender</th>
+                <td>{{character.Gender}}</td>
+            </tr>
+            <tr>
+                <th>Homeworld</th>
+                <td>{{character.Home_World}}</td>
+            </tr>
+            <tr>
+                <th>Alignment</th>
+                <td>{{character.Alignment}}</td>
+            </tr>
+            <tr>
+                <th>Deity</th>
+                <td>{{character.Deity}}</td>
+            </tr>
+            <tr>
+                <th>Languages</th>
+                <td>{{character.Languages}}</td>
+            </tr>
+        </table>
+
+        <hr />
+        <button class="btn btn-primary btn-lg" type="button" onclick=" location.href='{% url 'listToons' %}'">Back to Roster</button>
+    </div>
+</section>
+{% endblock %}

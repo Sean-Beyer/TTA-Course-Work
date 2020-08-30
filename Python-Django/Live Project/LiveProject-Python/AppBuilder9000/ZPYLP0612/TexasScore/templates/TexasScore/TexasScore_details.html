@@ -1,0 +1,37 @@
+{% extends 'TexasScore/TexasScore_base.html' %}
+{% load staticfiles %}
+{% block templatecontent %}
+<section>
+    <div class="table">
+        <table>
+            <tr>
+                <th>Opponent</th>
+                <td>{{game.against}}</td>
+            </tr>
+            <tr>
+                <th>Stadium</th>
+                <td>{{game.stadium}}</td>
+            </tr>
+            <tr>
+                <th>Time of Day</th>
+                <td>{{game.time_of_day}}</td>
+            </tr>
+            <tr>
+                <th>Significance</th>
+                <td>{{game.significance}}</td>
+            </tr>
+            <tr>
+                <th>Score</th>
+                <td>{{game.score}}</td>
+            </tr>
+            <tr>
+                <th>Winner</th>
+                <td>{{game.win_loss}}</td>
+            </tr>
+        </table>
+
+        <hr />
+        <button class="primary-bright-button" type="button" onclick=" location.href='{% url 'giveGames' %}'">View Games</button>
+    </div>
+</section>
+{% endblock %}

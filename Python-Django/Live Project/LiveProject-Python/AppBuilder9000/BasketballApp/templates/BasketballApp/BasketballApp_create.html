@@ -1,0 +1,21 @@
+{% extends 'BasketballApp/BasketballApp_base.html' %}
+{% load staticfiles %}
+{% block templatecontent %}
+
+
+<div class="admin_panel">
+<form method="POST" action="{% url 'create' %}">
+    <div class="frmObject_container">
+        {% csrf_token %}
+        {{ form.non_field_errors }}
+        {{ form.as_p }}
+
+    </div>
+    <div class="frmBtn_container">
+         <button class="btn" type="submit">Submit</button>
+    </div>
+</form>
+</div>
+
+
+{% endblock %}

@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Slideshow</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="./css/352.css">
+        <link rel="">
+	</head>
+	<body>
+		<h1>My Slideshow</h1>
+        <div id="slideshow">
+			<div>
+			  <img src="./images/kappv1.png">
+			</div>
+			<div>
+			  <img src="./images/kappv2.png">
+			</div>
+			<div>
+				<img src="./images/murcov1.png">
+			  </div>
+			  <div>
+				<img src="./images/murcov2.png">
+			  </div>
+		</div>
+
+		
+
+		<button class="open-button" onclick="openForm()">Contact</button>
+
+		<div class="form-popup" id="myForm">
+			<form action="/action_page.php" class="form-container">
+				<h2>Hit me up!</h2>
+
+				<label for="name"><b>First Name</b></label>
+				<input type="text" placeholder="Wade Wilson" name="name" required>
+
+				<label for="email"><b>Email</b></label>
+				<input type="text" placeholder="dpooly@geemail.com" name="emsg" required><br>
+
+				<label for="pnumb"><b>Phone</b></label>
+				<input type="text" placeholder="555-555-5555" name="number" required>
+
+				<button type="submit" class="btn">Woohoo</button>
+				<button type="button" class="btn cancel" onclick="closeForm()">Nevermind</button>
+			</form>
+		</div>
+		
+		<div id="home">
+			<div>
+				<div>
+					<span>kAPP the Wayfaring Mechanic</span>
+				<div>
+			</div>
+		</div>
+		<!--END HOME-->
+		
+		<!-- Bio -->
+		<div id="Bio">
+	    <section>
+			<div>
+				<h1>Written and Erased</h1>
+				<div>
+				
+					<!-- PART 1 -->
+					<div>
+						<div>
+							<div>
+								<h3><em>Awake but Alone</em></h3>
+								<p>kAPP's story begins in the loneliest of places.</p>
+							</div>
+						</div>
+					</div>
+					<!-- END PART 1-->
+					
+				</div>
+			</div>
+		</section>
+		
+		<!-- Murco's Bio -->
+		<section>
+			<div>
+				<h1>There is more Behind the Eyes</h1>
+				<div>
+				
+					<!-- Bio Text -->
+					<div>
+						<div>
+							<div>
+								<h3><em>Did I just create life?</em></h3>
+								<p>While further tweaking his creation, kAPP is startled Murco's awakening.</p>
+							</div>
+						</div>
+					</div>
+					<!-- END Text-->
+					
+				</div>
+			</div>
+		</section>
+		<!--END Bio-->
+		
+		<!--Start Sheets-->
+		<div id="Stats">
+		<section>
+			<div>
+				<h1>kAPP's Stats</h1>
+				<div>
+				
+					<!--kAPP's Sheet-->
+					<div>
+						<div>
+							<div>
+								<h2><span>Hover over titles to find out more about how that statistic affects kAPP.</span></h2>
+								<p>Tables listing statistics</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		</section>
+		
+		<section>
+			<div>
+				<h1>Murco's Stats</h1>
+				<div>
+				
+					<!--Murco's Sheet-->
+					<div>
+						<div>
+							<div>
+								<h2><span>Hover over titles to find out more about how that statistic affects Murco.</span></h2>
+								<p>Tables listing statistics</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		</section>
+		<!-- END Sheets -->
+		
+		<!-- About Me section -->
+		<div id="About">
+		<section>
+			<div>
+				<div>
+					<h1>I am Thalious</h1>
+					<div>
+						<p>Info about Me, Thalious</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- END Me -->
+		
+		<!-- References and Resources -->
+		<section>
+			<div>
+				<div>
+					<h2>Reference Material and Resources</h2>
+					<p>Information and videos about Starfinder</p>
+				</div>
+			</div>
+		</section>
+		<!-- END About Page -->
+
+		<script src="./js/352.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script>
+			$("#slideshow > div:gt(0)").hide()
+
+			setInterval(function() {
+				$('#slideshow > div:first')
+					.fadeOut(1000)
+					.next()
+					.fadeIn(1000)
+					.end()
+					.appendTo('#slideshow');
+			}, 3000);
+		</script>
+	</body>
+</html>

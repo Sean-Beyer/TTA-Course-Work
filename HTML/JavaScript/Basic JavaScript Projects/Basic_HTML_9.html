@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="./css/Basic_CSS_1.css">
+</head>
+<body>
+    <script src="./JS/Basic_JavaScript_9.js"></script>
+
+    <!-- countdown -->
+    <p>How many seconds would you like to set your alarm for?</p>
+    <input id="seconds" value="" />
+    <button onclick="countdown()">Click here</button>
+    <p id="timer"></p>
+
+    <!-- slideshow container -->
+    <div class="slideshow-container">
+
+        <!-- full-width images w/ numbers and captions -->
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 4</div>
+            <img src="./images/kappv1.png" alt="kapp1" class="center">
+            <div class="text">kAPP v1</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 4</div>
+            <img src="./images/murcov1.png" alt="murco1" class="center">
+            <div class="text">Murco v1</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 4</div>
+            <img src="./images/kappv2.png" alt="kapp2" class="center">
+            <div class="text">kAPP v2</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">4 / 4</div>
+            <img src="./images/murcov2.png" alt="murco2" class="center">
+            <div class="text">Murco v2</div>
+        </div>
+
+        <!-- buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+
+    <!-- dots/circles -->
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+    </div>
+</body>
+</html>

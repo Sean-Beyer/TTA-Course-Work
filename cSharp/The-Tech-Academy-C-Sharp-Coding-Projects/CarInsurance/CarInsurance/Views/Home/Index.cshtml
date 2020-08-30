@@ -1,0 +1,35 @@
+﻿@model IEnumerable<CarInsurance.Models.Insuree>
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+  <h1 class="text-center">TTA Insurances</h1>
+  <p class="lead text-center font-italic">TTA is the leader in fantasy insurance apps. <br />Follow the link below to get your car insurarnce started now!</p>
+  <div class="btn-block">
+    <p class="text-center h1"><strong>@Html.ActionLink("Save Now!", "Create", "Insuree")</strong></p>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-4">
+    <h2 class="text-center text-info">These people saved big!</h2>
+    <table class="table">
+
+      @foreach (var item in Model)
+      {
+        <tr>
+          <td>
+            @Html.DisplayFor(modelItem => item.FirstName)
+          </td>
+          <td>
+            @Html.DisplayFor(modelItem => item.LastName)
+          </td>
+          <td>
+            <p class="text-danger text-uppercase">Saved big!</p>
+          </td>
+        </tr>
+      }
+    </table>
+  </div>
+</div>

@@ -1,0 +1,21 @@
+{% extends 'Modify/Modify_base.html' %}
+{% load staticfiles %}
+{% block templatecontent %}
+<section>
+    <div class="flex-container footy">
+        <table>
+            <tr>
+                <th>Music Genre</th>
+                <td>{{mnews.genre}}</td> #
+            </tr>
+            <tr>
+                <th>Music News Outlets</th>
+                <td>{{mnews.NewsOutlets}}</td> #
+            </tr>
+        </table>
+
+        <hr />
+        <button class="primary-bright-button" type="button" onclick=" location.href='{% url 'viewindex' %}'">Back to Collection</button>
+    </div>
+</section>
+{% endblock %}

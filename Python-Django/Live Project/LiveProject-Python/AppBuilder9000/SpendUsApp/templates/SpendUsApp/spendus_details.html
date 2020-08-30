@@ -1,0 +1,29 @@
+{% extends 'SpendUsApp/spendus_base.html' %}
+{% load staticfiles %}
+{% block templatecontent %}
+<section>
+    <div class="flex-container spend">
+        <table id="spend_details_tbl">
+            <tr>
+                <th>Expense Type</th>
+                <td>{{expense.type}}</td>
+            </tr>
+            <tr>
+                <th>Purchaser Name</th>
+                <td>{{expense.name}}</td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>{{expense.description}}</td>
+            </tr>
+            <tr>
+                <th>Price</th>
+                <td>{{expense.price}}</td>
+            </tr>
+        </table>
+
+        <hr />
+        <button class="primary-bright-button" type="button" onclick=" location.href='{% url 'listExpense' %}'">Back to Collection</button>
+    </div>
+</section>
+{% endblock %}

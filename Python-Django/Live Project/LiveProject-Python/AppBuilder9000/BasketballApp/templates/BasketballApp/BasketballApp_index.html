@@ -1,0 +1,25 @@
+{% extends 'BasketballApp/BasketballApp_base.html' %}
+{% load staticfiles %}
+{% block templatecontent %}
+<section >
+    <div class="flex-container footy" id="jerseyCollectionPage">
+        <table class="table-striped">
+            <tr>
+                <th class="col-md">Name</th>
+                <th class="col-md">Description</th>
+                <th class="col-md">E-mail</th>
+
+            </tr>
+            {% for contact in CreateContact %}     <!-- creates a new row for each jersey in the collection -->
+                <tr>
+                    <td class="col-md">{{contact.name}}</td>
+                    <td class="col-md">{{contact.description}}</td>
+                    <td class="col-md">{{contact.email}}</td>
+                    <td class="col-md"><a href="{{ contact.pk }}/Details"><button class="primary-light-button" id="primary-button">Details</button></a></td>
+<!-- creates a link for that specific jersey -->
+                </tr>
+            {% endfor %}
+        </table>
+    </div>
+</section>
+{% endblock %}

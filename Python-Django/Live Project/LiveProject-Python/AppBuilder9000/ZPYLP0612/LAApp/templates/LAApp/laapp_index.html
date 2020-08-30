@@ -1,0 +1,39 @@
+{% extends 'LAApp/LAApp_base.html' %}
+{% load staticfiles %}
+{% block templatecontent %}
+
+<section >
+    <div class="laapp_flex-container" id="authorCollectionPage">
+        <table class="table-striped">
+            <tr>
+                <th class="col-md">First Name</th>
+                <th class="col-md">Last Name</th>
+                <th class="col-md">Genre</th>
+                <th class="col-md">City</th>
+                <th class="col-md">State</th>
+                <th class="col-md">Title</th>
+                <th class="col-md">Publisher</th>
+                <th class="col-md">Year Published</th>
+            </tr>
+            {% for author in authors %}     <!-- creates a new row for each author in the list -->
+                <tr>
+                    <td class="col-md">{{author.first_name}}</td>
+                    <td class="col-md">{{author.last_name}}</td>
+                    <td class="col-md">{{author.genre}}</td>
+                    <td class="col-md">{{author.city}}</td>
+                    <td class="col-md">{{author.state}}</td>
+                    <td class="col-md">{{author.title}}</td>
+                    <td class="col-md">{{author.publisher}}</td>
+                    <td class="col-md">{{author.published_year}}</td>
+
+                    <td class="col-md">
+                        {% if author.authentic %} &#8730 {% endif %}
+                    </td>
+                    <td class="col-md"><a href="{{author.pk}}/Details"><button class="laapp_authdetail-btn">Details</button></a></td>    <!-- creates a link for a specific author -->
+                </tr>
+            {% endfor %}
+        </table>
+        <button class="laapp_addauthors-btn" type="button" onclick=" location.href='{% url 'createAuthor' %}'">Add to Author List</button>
+    </div>
+</section>
+{% endblock %}

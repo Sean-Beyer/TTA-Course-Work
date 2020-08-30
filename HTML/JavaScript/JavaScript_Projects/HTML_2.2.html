@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./css/css_1.css">
+</head>
+<body>
+    <div>
+        <form name="myForm" action="" onsubmit="return validateForm()" method="post">
+            <label for="player">Player Name:</label><br>
+            <input type="text" id="player" name="player"><br>
+            <label for="toon">Character Name:</label><br>
+            <input type="text" id="toon" name="toon"><br>
+
+            <label for="gender">Gender:</label><br>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br>
+            <input type="radio" id="other" name="gender" value="other">
+            <label for="other">Other</label><br>
+
+            <br>
+            
+            <label for="race">Race:</label><br>
+            <select id="race" name="race">
+                <option value="android">Android</option>
+                <option value="human">Human</option>
+                <option value="lashunta">Lashunta</option>
+                <option value="kasatha">Kasatha</option>
+                <option value="vesk">Vesk</option>
+                <option value="ysoki">Ysoki</option>
+            </select>
+
+
+            <label for="race">Class:</label><br>
+            <select id="class" name="class">
+                <option value="envoy">Envoy</option>
+                <option value="mechanic">Mechanic</option>
+                <option value="operative">Operative</option>
+                <option value="mystic">Mystic</option>
+                <option value="mechanic">Mechanic</option>
+                <option value="solarian">Solarian</option>
+                <option value="soldier">Soldier</option>
+                <option value="technomancer">Technomancer</option>
+            </select>
+
+            <input type="submit" value="Create Character">
+        </form>
+    </div>
+<script src="./JS/JavaScript_2.js"></script>
+</body>
+</html>
